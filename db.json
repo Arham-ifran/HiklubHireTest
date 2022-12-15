@@ -1,140 +1,189 @@
 {
-    "questions": [
-        {
-            "id": 1,
-            "question": "Who was the first person in space",
-            "1": "Nelson Mandela",
-            "2": "Nelson Armstrong",
-            "3": "Neil Armstrong",
-            "4": "Yuri Gagarin",
-            "answer": "4"
-        },
-        {
-            "id": 2,
-            "question": "What is the 7th planet of the solar system?",
-            "1": "Uranus",
-            "2": "Uranium",
-            "3": "Urnan",
-            "4": "Nelson Armstrong",
-            "answer": "1"
-        },
-        {
-            "id": 3,
-            "question": "Who invented the light bulb?",
-            "1": "Thomas Edison",
-            "2": "Albert Einstein",
-            "3": "Neslson Armstrong",
-            "4": "Enzo Ferrari",
-            "answer": "1"
-        },
-        {
-            "id": 4,
-            "question": "What temperature does water boil at?",
-            "1": "50 degrees Celcius",
-            "2": "150 degrees Celcius",
-            "3": "100 degrees Celcius",
-            "4": "Nelson Armstrong",
-            "answer": "3"
-        },
-        {
-            "id": 5,
-            "question": "What is the name of the toy cowboy in Toy Story?",
-            "1": "Woody",
-            "2": "Woodpecker",
-            "3": "Mickey-g the Mouse",
-            "4": "Nelson Armstrong",
-            "answer": "1"
-        },
-        {
-            "id": 6,
-            "question": "What is the highest-grossing film of all time?",
-            "1": "Secret Life of Nelson Armstrong",
-            "2": "Dragonballs: Goku Goes to School",
-            "3": "Avengers: Endgame",
-            "4": "Wizards of Booze",
-            "answer": "3"
-        },
-        {
-            "id": 7,
-            "question": "J. R. R. Tolkien is famous for which literature work?",
-            "1": "Star Trek",
-            "2": "Lord of the Rings",
-            "3": "Nelson Armstrong's Travel",
-            "4": "The Great Gatsby",
-            "answer": "2"
-        },
-        {
-            "id": 8,
-            "question": "What is the world's longest river?",
-            "1": "Nile River",
-            "2": "Amazon River",
-            "3": "Yangtze River",
-            "4": "Oberon River",
-            "answer": "1"
-        },
-        {
-            "id": 9,
-            "question": "Which galaxy is the closest to ours?",
-            "1": "Milky Way Galaxy",
-            "2": "Armstrong Galaxy",
-            "3": "Evil Eye Galaxy",
-            "4": "Andromeda Galaxy",
-            "answer": "4"
-        },
-        {
-            "id": 10,
-            "question": "Who painted the Mona Lisa?",
-            "1": "Masashi Kishimoto",
-            "2": "Twitter artist",
-            "3": "Leonardo Da Vinci",
-            "4": "Nelson Armstrong",
-            "answer": "3"
-        },
-        {
-            "id": 11,
-            "question": "Billie Jean is a popular song made by who?",
-            "1": "Michael Jordan",
-            "2": "John Lemon",
-            "3": "Nelson Armstrong",
-            "4": "Michael Jackson",
-            "answer": "4"
-        },
-        {
-            "id": 12,
-            "question": "In which country does adding pinnaples on a Pizza is considered a violation of the highest degree?",
-            "1": "Germany",
-            "2": "United States",
-            "3": "Italy",
-            "4": "Canada",
-            "answer": "3"
-        },
-        {
-            "id": 13,
-            "question": "The game of Football/Soccer is coming to Rome, but which country does it originate from?",
-            "1": "Italy",
-            "2": "England",
-            "3": "Brazil",
-            "4": "NA",
-            "answer": "4"
-        },
-        {
-            "id": 14,
-            "question": "Who was the first woman to win a Nobel Prize?",
-            "1": "Marie Curie",
-            "2": "Mariah Carey",
-            "3": "Nelsonia Armstrong",
-            "4": "Marie Antoinette",
-            "answer": "1"
-        },
-        {
-            "id": 15,
-            "question": "Finally, what was the real treassure?",
-            "1": "The friends we made along the way",
-            "2": "You didn't need the treasure, the treasure was inside you all along",
-            "3": "It's not the destination that matters, but the journey you took to get there",
-            "4": "Nelson Armstrong",
-            "answer": "4"
-        }
-    ],
-    "users": []
+  "questions": [
+    {
+      "1": "Nelson Mandela",
+      "2": "Nelson Armstrong",
+      "3": "Neil Armstrong",
+      "4": "Yuri Gagarin",
+      "id": 1,
+      "question": "Who was the first person in space",
+      "answer": "4"
+    },
+    {
+      "1": "Uranus",
+      "2": "Uranium",
+      "3": "Urnan",
+      "4": "Nelson Armstrong",
+      "id": 2,
+      "question": "What is the 7th planet of the solar system?",
+      "answer": "1"
+    },
+    {
+      "1": "Thomas Edison",
+      "2": "Albert Einstein",
+      "3": "Neslson Armstrong",
+      "4": "Enzo Ferrari",
+      "id": 3,
+      "question": "Who invented the light bulb?",
+      "answer": "1"
+    },
+    {
+      "1": "50 degrees Celcius",
+      "2": "150 degrees Celcius",
+      "3": "100 degrees Celcius",
+      "4": "Nelson Armstrong",
+      "id": 4,
+      "question": "What temperature does water boil at?",
+      "answer": "3"
+    },
+    {
+      "1": "Woody",
+      "2": "Woodpecker",
+      "3": "Mickey-g the Mouse",
+      "4": "Nelson Armstrong",
+      "id": 5,
+      "question": "What is the name of the toy cowboy in Toy Story?",
+      "answer": "1"
+    },
+    {
+      "1": "Secret Life of Nelson Armstrong",
+      "2": "Dragonballs: Goku Goes to School",
+      "3": "Avengers: Endgame",
+      "4": "Wizards of Booze",
+      "id": 6,
+      "question": "What is the highest-grossing film of all time?",
+      "answer": "3"
+    },
+    {
+      "1": "Star Trek",
+      "2": "Lord of the Rings",
+      "3": "Nelson Armstrong's Travel",
+      "4": "The Great Gatsby",
+      "id": 7,
+      "question": "J. R. R. Tolkien is famous for which literature work?",
+      "answer": "2"
+    },
+    {
+      "1": "Nile River",
+      "2": "Amazon River",
+      "3": "Yangtze River",
+      "4": "Oberon River",
+      "id": 8,
+      "question": "What is the world's longest river?",
+      "answer": "1"
+    },
+    {
+      "1": "Milky Way Galaxy",
+      "2": "Armstrong Galaxy",
+      "3": "Evil Eye Galaxy",
+      "4": "Andromeda Galaxy",
+      "id": 9,
+      "question": "Which galaxy is the closest to ours?",
+      "answer": "4"
+    },
+    {
+      "1": "Masashi Kishimoto",
+      "2": "Twitter artist",
+      "3": "Leonardo Da Vinci",
+      "4": "Nelson Armstrong",
+      "id": 10,
+      "question": "Who painted the Mona Lisa?",
+      "answer": "3"
+    },
+    {
+      "1": "Michael Jordan",
+      "2": "John Lemon",
+      "3": "Nelson Armstrong",
+      "4": "Michael Jackson",
+      "id": 11,
+      "question": "Billie Jean is a popular song made by who?",
+      "answer": "4"
+    },
+    {
+      "1": "Germany",
+      "2": "United States",
+      "3": "Italy",
+      "4": "Canada",
+      "id": 12,
+      "question": "In which country does adding pinnaples on a Pizza is considered a violation of the highest degree?",
+      "answer": "3"
+    },
+    {
+      "1": "Italy",
+      "2": "England",
+      "3": "Brazil",
+      "4": "NA",
+      "id": 13,
+      "question": "The game of Football/Soccer is coming to Rome, but which country does it originate from?",
+      "answer": "4"
+    },
+    {
+      "1": "Marie Curie",
+      "2": "Mariah Carey",
+      "3": "Nelsonia Armstrong",
+      "4": "Marie Antoinette",
+      "id": 14,
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer": "1"
+    },
+    {
+      "1": "The friends we made along the way",
+      "2": "You didn't need the treasure, the treasure was inside you all along",
+      "3": "It's not the destination that matters, but the journey you took to get there",
+      "4": "Nelson Armstrong",
+      "id": 15,
+      "question": "Finally, what was the real treassure?",
+      "answer": "4"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Arham Irfan",
+      "email": "arham.irfaann@gmail.com",
+      "password": "User@123",
+      "selection": [],
+      "result": []
+    },
+    {
+      "id": "40rw94dcrdi000",
+      "name": "test",
+      "email": "test@gamil.com",
+      "password": "User@123",
+      "selection": [],
+      "result": []
+    },
+    {
+      "id": "27w8djdsvge800",
+      "name": "test1",
+      "email": "test1@gamil.com",
+      "password": "User@123",
+      "selection": [
+        "1",
+        "2",
+        "3"
+      ],
+      "result": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "hqop25xwjc000",
+      "name": "test2",
+      "email": "test2@gmail.com",
+      "password": "User@123",
+      "selection": [],
+      "result": []
+    },
+    {
+      "id": "5csnd9n1mzw000",
+      "name": "test3",
+      "email": "test3@gmail.com",
+      "password": "User@123",
+      "selection": [],
+      "result": []
+    }
+  ]
 }

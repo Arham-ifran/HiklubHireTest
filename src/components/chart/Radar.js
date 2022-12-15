@@ -1,6 +1,24 @@
 import React, { useState } from "react";
-import { Radar } from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  RadialLinearScale,
+  PointElement,
+  LineElement,
+  Filler,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+import { Radar } from 'react-chartjs-2';
 import { Typography } from "@mui/material";
+
+ChartJS.register(
+  RadialLinearScale,
+  PointElement,
+  LineElement,
+  Filler,
+  Tooltip,
+  Legend
+);
 
 /** ToDo:
  *
@@ -47,71 +65,30 @@ import { Typography } from "@mui/material";
  *
  * 6.- Las etiquetas deben mostrar el valor + "%""
  */
-export default function Radar({ arrayReceived }) {
-  const [array, setArray] = useState(arrayReceived);
-  const [radar, setRadar] = useState();
-  const [isRadar, setIsRadar] = useState(false);
+export default function RadarComponent(props) {
 
-  const options = {
-    responsive: true,
-    aspectRatio: 1,
-    //maintainAspectRatio: false,
+  const [lightOptions] = useState({
     plugins: {
-      legend: {
-        display: false,
-        labels: {
-          font: {
-            size: 18,
-          },
-          color: "#93C01F",
-        },
-      },
+        legend: {
+            labels: {
+                color: '#495057'
+            }
+        }
     },
     scales: {
-      r: {
-        grid: {
-          display: true,
-        },
-        angleLines: {
-          display: false,
-        },
-        suggestedMin: 0, // equivale a 3 en la suma
-        suggestedMax: 100, // equivale a 12 en la suma
-        ticks: {
-          stepSize: 2,
-          color: "#93C01F",
-          font: {
-            size: 14,
-          },
-        },
-        pointLabels: {
-          padding: 2,
-          color: "#93C01F",
-          font: {
-            family: "ASAP",
-            size: 14,
-          },
-        },
-      },
-    },
-  };
+        r: {
+            pointLabels: {
+                color: '#495057',
+            },
+            grid: {
+                color: '#ebedef',
+            },
+            angleLines: {
+                color: '#ebedef'
+            }
+        }
+    }
+});
 
-  const data = {
-    labels: ["RE", "A", "AM", "EX", "EM"],
-    datasets: [
-      {
-        label: "Pon tu nombre aqui",
-        data: radar,
-        backgroundColor: "rgba(147, 192, 31, 0.6)",
-        borderColor: "#93C01F",
-        borderWidth: 1,
-      },
-    ],
-  };
-
-  return isRadar ? (
-    <Radar data={data} options={options} />
-  ) : (
-    <Typography variant="h6">Sin datos</Typography>
-  );
+  return <Radar data={props.data} options={lightOptions} style={{ position: 'relative', display:"flex", marginLeft:"auto", marginRight:"auto", width: '40%' }}  />;
 }

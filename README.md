@@ -34,3 +34,11 @@ Hola a todos, este repositorio es un conjunto de pruebas para contratarlos. Esto
 `npm install @mui/icons-material --legacy-peer-deps`
 
 Si tu codesandbox te da problemas para instalar los paquetes y/o ejecutar, puedes hacer un downgrade de react a versión 17
+
+## Running the client & server
+
+`npm install`
+Frontend: `npm start`
+Db server on new terminal: `json-server --watch db.json --port 8000`
+
+Sample users and questions are stored in db.json which will be updated on sign up, sign in and attemp any question
