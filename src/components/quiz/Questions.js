@@ -19,7 +19,7 @@ const Questions = (props) => {
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgba(179,181,198,1)',
-        data: [4,1,1,3,1,3,2,1,4,3,4,3,4,1,4]
+        data: [4, 1, 1, 3, 1, 3, 2, 1, 4, 3, 4, 3, 4, 1, 4]
       },
       {
         label: 'User Answers',
@@ -30,10 +30,10 @@ const Questions = (props) => {
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgba(255,99,132,1)',
         data: user?.selection,
-    }
+      }
     ],
   };
-  
+
 
   const navigate = useNavigate();
 
@@ -127,12 +127,16 @@ const Questions = (props) => {
                     <div>
                       <input type="radio" id={`${question[1]}`} name="fav_language" value="1" />
                       <label htmlFor={`${question[1]}`}>{question[1]}</label>
+                    </div>
+                    <div>
                       <input type="radio" id={`${question[2]}`} name="fav_language" value="2" />
                       <label htmlFor={`${question[2]}`}>{question[2]}</label>
                     </div>
                     <div>
                       <input type="radio" id={`${question[3]}`} name="fav_language" value="3" />
                       <label htmlFor={`${question[3]}`}>{question[3]}</label>
+                    </div>
+                    <div>
                       <input type="radio" id={`${question[4]}`} name="fav_language" value="4" />
                       <label htmlFor={`${question[4]}`}>{question[4]}</label>
                     </div>

@@ -105,7 +105,7 @@ const Signup = (props) => {
                 onSubmit={onSubmit}
                 validationSchema={validationSchema}
             >
-                <Form>
+                <Form className='form'>
                     <div className='form-control'>
                         <label htmlFor="name">Name</label>
                         <Field type="text" name="name" id="name" />
